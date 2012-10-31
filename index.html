@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html style="background-color:#fff1e0;">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="description" content = "Template page"/>
+		<meta name="viewport" content="width=device-width; initial-scale=1; minimum-scale=1; maximum-scale=1; user-scalable=no;"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="author" content="Ben Freese"/>
+		<meta name="keywords" content="Template, Interactive, Interactive feature, Interactive graphic, Ben Freese"/>
+		<meta name="robots" content="none"/>
+		
+              <script type="text/javascript" src="http://interactive.ftdata.co.uk/js/jquery-1.8.2.min.js"></script>
+              <script type="text/javascript" src="js/jquery.xcolor.min.js"></script>
+              <script type="text/javascript" src="js/d3.js"></script>
+              <script type="text/javascript" src="js/d3.geo.js"></script>
+		
+		<link rel="stylesheet" href="css/style.css" />
+              <link rel="stylesheet" href="http://interactive.ftdata.co.uk/css/FTi_no_select.css" />
+              <script src="../../js/gaNY/ga.js"></script>
+              
+              <title>Globe example</title>
+	</head>
+	
+	<body>
+		<div class="wideWidth"> <!-- wideWidth or narrowWidth -->
+			<div class="titleSmall">Globe example</div> <!-- titleSmall or titleLarge -->
+			<div class="loaderContainer">
+				<div class="loaderHolder">
+					<div class="loader">Loading feature...</div>
+				</div>
+			</div>
+			
+			<div class="errorMessageHolder">
+              		<div class="errorMessage"></div>
+				<div class="errorBground"></div>
+			</div>
+			
+			<div class="content">
+                            <div class="gl" style="position:relative; float:right;">
+                                   <!-- <iframe src="globe.html" width="650" height="600" frameborder="0" scrolling="no"></iframe> -->
+                            </div>
+                     </div>
+                     <div class="toolTip" style="position:absolute; top:-50px;"></div>
+			
+			<div class="footer">
+                            <div id="footerContents" style="visibility:hidden">
+                                   <div id="source">Source: Associated Press, Source: Associated Press, Source: Associated Press, Source: Associated Press, Source: Associated Press</div>
+                                   <div id="logo"><img src="http://interactive.ftdata.co.uk/imgs/ftlogo.png" alt="ft.com"></div>
+                                   <div id="credits">&bull; Edited by Johanna Kassel&nbsp;&nbsp;&bull; Developed by Ben Freese</div>
+                            </div>
+			</div>
+                     <div id="sourcesCredits"></div>
+		</div>
+              
+              <script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
